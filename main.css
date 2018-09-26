@@ -1,0 +1,218 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #d8cdb7;
+    background-image: url("bgrdImg.jpg");
+    /* opacity: 0.5; */
+    
+
+}
+.bodyPage{
+    width: 900px;
+    min-height: 800px;
+    background: white;
+    margin: 20px auto;
+
+}
+.headerPage{
+    width: 950px;
+    height: 70px;
+    background: #473529;
+    margin: auto;
+    border-bottom: solid 10px #e05f49;
+    position: relative;
+    top: 250px;
+}
+.headerPageBody{
+    height: 50px;
+    background: #473529;
+}
+.firstConer{
+    width: 100px;
+    height: 70px;
+    background: #a03d28;
+    transform:rotate(-160deg);
+    position: relative;
+    top: 30px;
+    left: 10px;
+    z-index: -100;
+
+}
+.secondConer{
+    width: 100px;
+    height: 70px;
+    background: #a03d28;
+    transform:rotate(160deg);
+    position: relative;
+    top: -90px;
+    left: 840px;
+    z-index: -100;
+
+}
+.mySlider{
+    height: 400px;
+    margin-top: 170px;
+    background-image: url(room3.jpg);
+}
+.mySlider H1{
+    position: absolute;
+    top: 160px;
+    left: 590px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* localisation */
+.space-fa {
+    width: 10px;
+    height: 10px;
+    background: #473529;
+    font-size: 25px;
+    border-radius: 50%;
+    position: relative;
+    left: 400px;
+    top: 10px;
+    padding: 20px;
+    padding-bottom: 25px;
+    color: white;
+}
+/* THIS IS THE MENU */
+
+.myMenu ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: -60px;
+}
+.myMenu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    position: relative;
+    left: 40px;
+    border-left: 1px solid white;
+
+}
+.myMenu ul li:first-child a{
+    text-decoration: none;
+    padding: 10px 40px;
+}
+.myMenu ul li:last-child a{
+   border-right: 1px solid white;
+   padding: 10px 50px;
+}
+#selectName{
+    width: 200px;
+    padding: 10px;
+   
+}
+.contentAdd{
+    display: flex;
+}
+.formContact{
+    width:250px;
+    height: 120px;
+    background: #4f3d31;
+    border-bottom: solid 7px #e4653a;
+    position: relative;
+    top: -150px;
+    left: -20px;
+}
+.textAdd{
+    width: 170px;
+    height: 30px;
+    padding: 5px 10px;
+    background: #e4653a;
+    color: white;
+    font-style: italic;
+    position: relative;
+    top: -60px;
+    right: -460px;
+    font-size: 13px;
+    text-align: center;
+}
+.shadowContent{
+    width: 100px;
+    height: 50px;
+    background: #9f372c;
+    position: relative;
+    left:-455px;
+    transform: rotate(-160deg);
+    top:-53px;
+    z-index: -100;
+}
+#mySelect{
+    width: 223px;
+    padding: 5px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.enterDate{
+    width: 160px;
+    margin-left:10px;
+    position: relative;
+    padding: 2px;
+    top: 7px;
+    left: 2px; 
+}
+
+#btn{
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: #e96040;
+    color: white;
+    border: none;
+    position: relative;
+    left: 50px;
+    top: 6px;
+}
+#tdEntdt{
+    display: flex;
+    width: 230px;
+}
+section h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    width: 700px;
+    margin: auto;
+    position: relative;
+    top: -10px;
+    font-weight: normal;
+    font-style: italic;
+    
+}
+#texth2{
+    position: relative;
+    top: -100px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -100px;
+}
+.box1{
+    border-right:solid 1px rgba(0, 0, 0, 0.2);
+    flex-basis: 34%;
+    min-height: 300px;
+
+}
+.box1 h4{
+    border-bottom:solid 1px rgba(0, 0, 0, 0.2); 
+    padding: 0px;
+}
+.box1 h4 p{
+    /* border-bottom:solid 2px red;  */
+    padding: 0px;
+    margin: 0;
+    width: 150px;
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
